@@ -1,0 +1,22 @@
+{
+  "name": "hykathon",
+  "version": "1.0.0",
+  "description": "2023 june hackathon for hyke ai , axiom telecom. Theme of the hackathon is \"Innovating The Future of Retail with the Power of AI\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedElZubair38/Hykathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedElZubair38/Hykathon/issues"
+  },
+  "homepage": "https://github.com/AhmedElZubair38/Hykathon#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
