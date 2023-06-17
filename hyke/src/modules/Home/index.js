@@ -7,7 +7,6 @@ function Home() {
   return (
     <>
         <Hero/>
-        <h2 className="text-center text-5xl mt-12">Products</h2>
         <Products/>
         <Features/>
     </>
