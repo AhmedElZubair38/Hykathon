@@ -8,7 +8,6 @@ function Home() {
     <section className="bg-white">
         <Hero/>
         <Products/>
-        {/* <Features/> */}
     </section>
   )
 }

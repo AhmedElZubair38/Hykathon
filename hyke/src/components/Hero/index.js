@@ -12,7 +12,6 @@ function Hero() {
       <div className="flex justify-center">
         <button className="inline-flex text-blue bg-gray border-0 py-2 px-6 focus:outline-none rounded text-lg">Edit and View my Stock
         <FaArrowRight className="ml-2" style={{ marginTop: '3%', fontSize: '18' }} />
-
         </button>
       </div>
     </div>
