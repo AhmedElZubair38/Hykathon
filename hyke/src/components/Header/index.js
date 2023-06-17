@@ -13,9 +13,11 @@ const Header = () => {
       <span className="ml-5 text-3xl">SynapTech</span>
     </a>
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a className="mr-5 hover:text-[#FFFFFF] font-bold text-xl text-blue">My Stock</a>
-      <a className="mr-5 hover:text-[#FFFFFF] font-bold text-xl text-blue">Forecast</a>
-      <a className="mr-5 hover:text-[#B23B3B] font-bold underline text-xl text-[#B23B3B]">Logout</a>
+      <button className="mr-5 hover:text-beige font-bold text-xl text-blue">My Stock</button>
+      <button className="mr-5 hover:text-beige font-bold text-xl text-blue">Forecast</button>
+      {/* <button className="mr-5 hover:text-[#158900] font-bold underline text-xl text-[#39FF14]">Manufacturer Account</button> */}
+      <button className="mr-5 hover:text-beige font-bold text-xl text-blue">Manufacturer Account</button>
+      <button className="mr-5 hover:text-[#591d1d] font-bold underline text-xl text-[#B23B3B]">Logout</button>
     </nav>
     <button className="bg-gray-500 hover:bg-[#FFFFFF] text-blue font-bold py-2 px-4 rounded">
       <FaUser className="w-6 h-6 text-blue" />

@@ -7,7 +7,8 @@ module.exports = {
       current: 'currentColor',
       'black': '#1D1D1D',
       'blue': '#2272FF',
-      'gray' : '#D3D3D3'
+      'gray' : '#D3D3D3',
+      'beige' : '#F2EBE2'
     },
   },
   plugins: [],

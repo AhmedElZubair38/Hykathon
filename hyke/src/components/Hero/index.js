@@ -4,11 +4,11 @@ import { FaArrowRight } from 'react-icons/fa';
 
 function Hero() {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="bg-beige text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font text-6xl mb-4 font-bold text-blue">Products</h1>
-      <p className="mb-8 leading-relaxed"> Products suggested based on your shopping below!</p>
+      <p className="mb-8 leading-relaxed"> Suggestions based on your shopping below!</p>
       <div className="flex justify-center">
         <button className="inline-flex text-blue bg-gray border-0 py-2 px-6 focus:outline-none rounded text-lg">Edit and View my Stock
         <FaArrowRight className="ml-2" style={{ marginTop: '3%', fontSize: '18' }} />
