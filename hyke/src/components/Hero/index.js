@@ -10,9 +10,9 @@ function Hero() {
       <h1 className="title-font text-6xl mb-4 font-bold text-blue">Products</h1>
       <p className="mb-8 leading-relaxed"> Suggestions based on your shopping below!</p>
       <div className="flex justify-center">
-        <button className="inline-flex text-blue bg-gray border-0 py-2 px-6 focus:outline-none rounded text-lg">Edit and View my Stock
+        {/* <button className="inline-flex text-blue bg-gray border-0 py-2 px-6 focus:outline-none rounded text-lg">Edit and View my Stock
         <FaArrowRight className="ml-2" style={{ marginTop: '3%', fontSize: '18' }} />
-        </button>
+        </button> */}
       </div>
     </div>
     {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
