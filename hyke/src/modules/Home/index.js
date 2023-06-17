@@ -5,11 +5,11 @@ import Features from '../../components/Features'
 
 function Home() {
   return (
-    <>
+    <section className="bg-white">
         <Hero/>
         <Products/>
-        <Features/>
-    </>
+        {/* <Features/> */}
+    </section>
   )
 }
 
