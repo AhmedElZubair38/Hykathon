@@ -1,17 +1,20 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
 import Home from './modules/Home';
-import Product from './Product';
+import Stock from './components/Stock/stock';
+import Login from './components/Login/login';
+import { Routes, Route } from "react-router-dom"
+
 
 function App() {
   return (
-    <div>
-      
-      {/* <Header/>
-      <Home/> */}
-      <Product/>
-      
+    <div>      
+     <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="/stock" element={ <Stock/> } />
+        <Route path='/login' element={<Login/>}/>
+      </Routes>
+
 
     </div>
   );
