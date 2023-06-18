@@ -3,15 +3,14 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from "react-router-dom";
 
-
-import productsData from './products.json';
-
 const Products = () => {
 
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('C:\Users\USER\Documents\PROJECT\Hykathon\hyke\src\components\Stock\products.json', { headers: {"Authorization" : `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJzdWIiOiIzNjNiOWQ3MC1lNjlmLTQ0ZDMtYWQ5Ni1jOGM5ODU0NWQ1NTgiLCJ0eXBlIjoibWFudWZhY3R1cmVyIiwiaWF0IjoxNjg3MDA4NjI3fQ.7Iw_Q6VdeD7YS-hdiIkOGOQSFJKrTlHlb-Bt4HSvYuY`} })
+    const token = localStorage.getItem('access_token').replace("\"", '').replace("\"", '');
+
+    axios.get('http://localhost:3000/product/feed', { headers: {"Authorization" : `Bearer ${token}`} })
       .then(response => {
         setProducts(response.data);
       })
@@ -37,7 +36,7 @@ const Products = () => {
                 </a>
               </div>
               <div className="mt-4">
-              <Link to="product"><h2 className="text-gray-900 title-font text-lg font-medium mb-2">
+              <Link  to={`product/${product.id}` }><h2 className="text-gray-900 title-font text-lg font-medium mb-2">
                   {product.productName}
                 </h2></Link>
                 <p className="text-gray-700 text-xl font-semibold mb-4">{product.price}</p>

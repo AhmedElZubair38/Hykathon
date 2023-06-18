@@ -17,7 +17,8 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route path='/stock/login' element={<Login/>}/>
         <Route path='/stock/stockSingleProduct/login' element={<Login/>}/>
-        <Route path='/product' element={<Product/>}/>
+        <Route path="product/:id" element={<Product />} />
+
         <Route path='/stock/stockSingleProduct' element={<StockSingleProduct/>}/>
       </Routes>
 

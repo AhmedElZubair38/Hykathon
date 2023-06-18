@@ -79,8 +79,17 @@ function Login() {
         console.log(response.data.access_token);
         localStorage.setItem('access_token', JSON.stringify(response.data.access_token));
         localStorage.setItem('role', response.data.role);
+          axios
+          .get('http://localhost:3000/user/me', { headers: {"Authorization" : `Bearer ${response.data.access_token}`} })
+          .then((response) => {
+            localStorage.setItem('user', JSON.stringify(response.data));
+    
+            window.location.href = '/';
+          })
+          .catch((error) => {
+            alert('An Error Has Occurred');
+          });
  
-        window.location.href = '/';
       })
       .catch((error) => {
         alert('An Error Has Occurred');
