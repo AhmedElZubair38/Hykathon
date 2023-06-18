@@ -36,10 +36,10 @@ const Products = () => {
                 </a>
               </div>
               <div className="mt-4">
-              <Link  to={`product/${product.id}` }><h2 className="text-gray-900 title-font text-lg font-medium mb-2">
+              <Link  to={`/product/${product.id}` }><h2 className="text-gray-900 title-font text-lg font-medium mb-2">
                   {product.productName}
                 </h2></Link>
-                <p className="text-gray-700 text-xl font-semibold mb-4">{product.price}</p>
+                <p className="text-gray-700 text-xl font-semibold mb-4">${product.price}</p>
                 <div className="flex justify-between items-center mb-2">
                   <div className="flex items-center">
                     <span className="text-gray-500 text-base mr-1">Active Stock:</span>
