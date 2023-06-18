@@ -15,6 +15,8 @@ function App() {
         <Route path="/" element={ <Home/> } />
         <Route path="/stock" element={ <Stock/> } />
         <Route path='/login' element={<Login/>}/>
+        <Route path='/stock/login' element={<Login/>}/>
+        <Route path='/stock/stockSingleProduct/login' element={<Login/>}/>
         <Route path='/product' element={<Product/>}/>
         <Route path='/stock/stockSingleProduct' element={<StockSingleProduct/>}/>
       </Routes>
