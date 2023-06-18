@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaUser } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const StockHeader = () => {
   const [isManufacturer, setIsManufacturer] = useState("");
 
 useEffect(() => {
@@ -21,7 +21,7 @@ useEffect(() => {
       <span className="ml-5 text-3xl">SynapTech</span>
     </a>
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-    {isManufacturer ? <Link to="stock"><button className="mr-5 hover:text-beige font-bold text-xl text-blue">Show Stock</button></Link> : <div></div>}
+    {isManufacturer ? <Link to="./../"><button className="mr-5 hover:text-beige font-bold text-xl text-blue">Go Back</button></Link> : <div></div>}
       {/* <button className="mr-5 hover:text-[#158900] font-bold underline text-xl text-[#39FF14]">Manufacturer Account</button> */}
       <Link to="login"><button className="mr-5 hover:text-[#591d1d] font-bold underline text-xl text-[#B23B3B]">Logout</button></Link>
     </nav>
@@ -33,4 +33,4 @@ useEffect(() => {
   )
 }
 
-export default Header
+export default StockHeader

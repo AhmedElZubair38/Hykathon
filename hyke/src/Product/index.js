@@ -55,7 +55,7 @@ const Product = () => {
   return (
     <section className="bg-beige ph-8 text-gray-600 body-font">
       <Header />
-      <div className="container py-20 mx-auto">
+      <div className="bg-beige container py-20 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
           <img
             alt="ecommerce"

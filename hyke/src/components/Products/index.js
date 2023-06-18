@@ -11,7 +11,7 @@ const Products = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://192.168.18.29:3000/product/feed', { headers: {"Authorization" : `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJzdWIiOiIzNjNiOWQ3MC1lNjlmLTQ0ZDMtYWQ5Ni1jOGM5ODU0NWQ1NTgiLCJ0eXBlIjoibWFudWZhY3R1cmVyIiwiaWF0IjoxNjg3MDA4NjI3fQ.7Iw_Q6VdeD7YS-hdiIkOGOQSFJKrTlHlb-Bt4HSvYuY`} })
+    axios.get('C:\Users\USER\Documents\PROJECT\Hykathon\hyke\src\components\Stock\products.json', { headers: {"Authorization" : `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJzdWIiOiIzNjNiOWQ3MC1lNjlmLTQ0ZDMtYWQ5Ni1jOGM5ODU0NWQ1NTgiLCJ0eXBlIjoibWFudWZhY3R1cmVyIiwiaWF0IjoxNjg3MDA4NjI3fQ.7Iw_Q6VdeD7YS-hdiIkOGOQSFJKrTlHlb-Bt4HSvYuY`} })
       .then(response => {
         setProducts(response.data);
       })

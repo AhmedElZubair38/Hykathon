@@ -1,0 +1,84 @@
+
+[
+    {
+      "id": 1,
+      "image": "https://dummyimage.com/420x260",
+      "category": "CATEGORY",
+      "title": "The Catalyzer",
+      "price": "$16.00",
+      "activeStock": 10,
+      "shipperName": "ABC Shipper",
+      "shipperRating": 4.5
+    },
+    {
+      "id": 2,
+      "image": "https://dummyimage.com/421x261",
+      "category": "CATEGORY",
+      "title": "Shooting Stars",
+      "price": "$21.15",
+      "activeStock": 5,
+      "shipperName": "XYZ Shipper",
+      "shipperRating": 3.8
+    },
+    {
+      "id": 3,
+      "image": "https://dummyimage.com/422x262",
+      "category": "CATEGORY",
+      "title": "Neptune",
+      "price": "$12.00",
+      "activeStock": 2,
+      "shipperName": "PQR Shipper",
+      "shipperRating": 4.2
+    },
+    {
+      "id": 4,
+      "image": "https://dummyimage.com/423x263",
+      "category": "CATEGORY",
+      "title": "The 400 Blows",
+      "price": "$18.40",
+      "activeStock": 7,
+      "shipperName": "LMN Shipper",
+      "shipperRating": 4.0
+    },
+    {
+      "id": 5,
+      "image": "https://dummyimage.com/424x264",
+      "category": "CATEGORY",
+      "title": "The Catalyzer",
+      "price": "$16.00",
+      "activeStock": 12,
+      "shipperName": "EFG Shipper",
+      "shipperRating": 4.7
+    },
+    {
+      "id": 6,
+      "image": "https://dummyimage.com/425x265",
+      "category": "CATEGORY",
+      "title": "Shooting Stars",
+      "price": "$21.15",
+      "activeStock": 8,
+      "shipperName": "RST Shipper",
+      "shipperRating": 3.5
+    },
+    {
+      "id": 7,
+      "image": "https://dummyimage.com/427x267",
+      "category": "CATEGORY",
+      "title": "Neptune",
+      "price": "$12.00",
+      "activeStock": 4,
+      "shipperName": "UVW Shipper",
+      "shipperRating": 4.9
+    },
+    {
+      "id": 8,
+      "image": "https://dummyimage.com/428x268",
+      "category": "CATEGORY",
+      "title": "The 400 Blows",
+      "price": "$18.40",
+      "activeStock": 9,
+      "shipperName": "GHI Shipper",
+      "shipperRating": 4.3
+    }
+  ]
+  

@@ -5,7 +5,7 @@ import Header from '../../components/Header';
 
 function Home() {
   return (
-    <section className="bg-white">
+    <section className="bg-beige">
         <Header/>
         <Hero/>
         <Products/>
