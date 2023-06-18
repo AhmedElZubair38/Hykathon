@@ -22,13 +22,13 @@ const Stock = () => {
                 />                                                                          
               </a>
               <div className="mt-4">
-              <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
+              {/* <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   {product.category}
-                </h3>
+                </h3> */}
                 <Link to="stockSingleProduct"><h2 className="text-gray-900 title-font text-lg font-medium">
                   {product.title}
                 </h2></Link>
-                <p className="mt-1">{product.price}</p>
+                {/* <p className="mt-1">{product.price}</p> */}
               </div>
             </div>
           ))}
